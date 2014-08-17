@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_beige">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+        <TextView style = "@style/sectionHeader"
+                  android:layout_="top"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="Open the Shop"/>
+
+    </LinearLayout>
+
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:padding="10dp">
+        <TextView
+                style = "@style/openShopHeader"
+                android:id="@+id/LocationSearchHeader"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center_vertical"
+                android:text="BBQ Pork Belly Burger" />
+
+        <EditText style ="@style/editText"
+                android:id="@+id/etLocationSearch"
+                android:layout_width="match_parent"
+                android:layout_height="32dip"
+                android:hint="Your current Location"/>
+        <TextView
+                style = "@style/openShopHeader"
+                android:id="@+id/CloseTime"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center_vertical"
+                android:text="Close Time" />
+
+        <EditText style ="@style/editText"
+                  android:id="@+id/etCloseTime"
+                  android:layout_width="match_parent"
+                  android:layout_height="32dip"
+                  android:hint="Your Close Time"/>
+        <TextView
+                style = "@style/openShopHeader"
+                android:id="@+id/MenuItemsAvailable"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:gravity="center_vertical"
+                android:text="Menu Items Available" />
+
+        <EditText style ="@style/editText"
+                  android:id="@+id/etMenuItems"
+                  android:layout_width="match_parent"
+                  android:layout_height="32dip"
+                  android:hint="MenuItemsAailable"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+

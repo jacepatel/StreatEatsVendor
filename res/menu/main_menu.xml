@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:icon="@drawable/ic_StreatEats"
+        >
+
+    <item android:id="@+id/action_openshop"
+          android:icon="@drawable/ic_launcher"
+          android:title="Open Shop"
+          android:showAsAction="never"/>
+    <item android:id="@+id/action_menu"
+          android:icon="@drawable/ic_launcher"
+          android:title="Food Menu"
+          android:showAsAction="never"/>
+    <item android:id="@+id/action_settings"
+          android:icon="@drawable/ic_launcher"
+          android:title="Settings"
+          android:showAsAction="never"/>
+</menu>

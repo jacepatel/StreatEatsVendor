@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="android-sdk">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/Android/android-sdk" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/AppData/Local/Android/android-sdk/tools/apps/SdkController/src" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/android-sdk/tools/proguard/examples/annotations/src" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/android-sdk/tools/proguard/examples/annotations/examples" />
+    </SOURCES>
+  </library>
+</component>
